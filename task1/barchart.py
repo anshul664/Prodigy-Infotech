@@ -5,7 +5,6 @@ import seaborn as sns
 # Load the dataset
 df = pd.read_csv('worldpopulationdata.csv')
 
-
 df.head(10)
 df.tail(10)
 df.info()
